@@ -1,0 +1,7 @@
+---
+- name: Installing a package
+  hosts: all
+  become: true
+  
+  roles: 
+  - setup-apache-role
